@@ -58,11 +58,11 @@ header p {
 
 /* section-1 styles */
 
-.section-1 .heading{
+.section-1 .heading {
     margin-bottom: 0px;
 }
 
-.section-1{
+.section-1 {
     display: flex;
     gap: 100px;
     margin-left: 180px;
@@ -78,20 +78,54 @@ li {
     list-style: none;
 }
 
-.section-1 ul{
-padding-left: 0px;
+.section-1 ul {
+    padding-left: 0px;
 }
 
-.section-1 img{
+.section-1 img {
     width: 450px;
 }
 
-.section-description{
+.section-description {
     width: 500px;
     padding-top: 150px;
 }
 
-.section-1 li::before{
+.section-1 li::before {
     content: "✔️";
     padding-right: 20px;
+}
+
+/* section-2 styles */
+
+.section-2{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.heading-2 {
+    color: var(--dark-01, #151414);
+    font-size: 23px;
+    font-family: Work Sans;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.description-2 {
+    color: var(--dark-03, #737272);
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.plan-container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.plans{
+    text-align: center;
 }

@@ -98,7 +98,7 @@ li {
 
 /* section-2 styles */
 
-.section-2{
+.section-2 {
     text-align: center;
     margin-top: 200px;
 }
@@ -120,12 +120,40 @@ li {
     margin-top: 10px;
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     gap: 80px;
     justify-content: center;
 }
 
-.plans{
+.plans {
     text-align: center;
+}
+
+/* .section-3 */
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.section-3 > div {
+    height: 300px;
+    width: 1140px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+}
+
+.section-3 h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+}
+
+.call-now{
+    margin-top: 60px;
+    margin-left: 65px;
 }

@@ -49,4 +49,49 @@ header p {
 }
 
 /* main */
+.heading {
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+}
 
+/* section-1 styles */
+
+.section-1 .heading{
+    margin-bottom: 0px;
+}
+
+.section-1{
+    display: flex;
+    gap: 100px;
+    margin-left: 180px;
+    margin-top: 140px;
+}
+
+.section-1 p,
+li {
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-family: Work Sans;
+    line-height: 26px;
+    list-style: none;
+}
+
+.section-1 ul{
+padding-left: 0px;
+}
+
+.section-1 img{
+    width: 450px;
+}
+
+.section-description{
+    width: 500px;
+    padding-top: 150px;
+}
+
+.section-1 li::before{
+    content: "✔️";
+    padding-right: 20px;
+}
